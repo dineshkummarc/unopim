@@ -4,7 +4,6 @@ namespace Webkul\Product\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Webkul\Product\Console\Commands\Indexer;
 use Webkul\Product\Facades\ProductImage as ProductImageFacade;
 use Webkul\Product\Facades\ProductVideo as ProductVideoFacade;
 use Webkul\Product\Facades\ValueSetter as ProductValueSetter;
@@ -12,6 +11,7 @@ use Webkul\Product\Models\ProductProxy;
 use Webkul\Product\Observers\ProductObserver;
 use Webkul\Product\ProductImage;
 use Webkul\Product\ProductVideo;
+use Webkul\Product\Services\ProductValueMapper;
 use Webkul\Product\ValueSetter;
 
 class ProductServiceProvider extends ServiceProvider
@@ -39,8 +39,6 @@ class ProductServiceProvider extends ServiceProvider
     {
         $this->registerConfig();
 
-        $this->registerCommands();
-
         $this->registerFacades();
     }
 
@@ -50,16 +48,6 @@ class ProductServiceProvider extends ServiceProvider
     public function registerConfig(): void
     {
         $this->mergeConfigFrom(dirname(__DIR__).'/Config/product_types.php', 'product_types');
-    }
-
-    /**
-     * Register the console commands of this package.
-     */
-    protected function registerCommands(): void
-    {
-        if ($this->app->runningInConsole()) {
-            $this->commands([Indexer::class]);
-        }
     }
 
     /**
@@ -94,6 +82,13 @@ class ProductServiceProvider extends ServiceProvider
 
         $this->app->singleton('value_setter', function () {
             return app()->make(ValueSetter::class);
+        });
+
+        /**
+         * Product value mapper
+         */
+        $this->app->singleton('product_value_mapper', function ($app) {
+            return new ProductValueMapper;
         });
     }
 }

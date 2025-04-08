@@ -157,4 +157,52 @@ class ConfigurableProductController extends ProductController
             return $this->storeExceptionLog($e);
         }
     }
+
+    /**
+     * Patch the specified resource in storage.
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function partialUpdate(string $sku)
+    {
+        $validator = Validator::make(request()->all(), [
+            'status'     => ['nullable', 'boolean'],
+            'additional' => ['nullable', 'array'],
+            'values'     => ['nullable', 'array'],
+        ]);
+
+        if ($validator->fails()) {
+            return $this->validateErrorResponse($validator);
+        }
+
+        $data = request()->only([
+            'status',
+            'additional',
+            'values',
+        ]);
+
+        try {
+            $product = $this->findProductOr404($sku);
+
+            if (! empty($data[AbstractType::PRODUCT_VALUES_KEY])) {
+                $this->valuesValidator->validateOnlyExistingSectionData(data: $data[AbstractType::PRODUCT_VALUES_KEY], productId: $product->id);
+            }
+
+            Event::dispatch('catalog.product.update.before', $product->id);
+
+            $product = $this->patchProduct($product, $data);
+
+            Event::dispatch('catalog.product.update.after', $product);
+
+            return $this->successResponse(
+                trans('admin::app.catalog.products.update-success'),
+                Response::HTTP_OK,
+
+            );
+        } catch (ValidationException $e) {
+            return $this->validateErrorResponse($e->validator->errors()->messages());
+        } catch (\Exception $e) {
+            return $this->storeExceptionLog($e);
+        }
+    }
 }

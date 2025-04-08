@@ -3,44 +3,50 @@
 return [
     'users' => [
         'sessions' => [
-            'email'                => 'عنوان البريد الإلكتروني',
-            'forget-password-link' => 'نسيان كلمة المرور؟',
-            'password'             => 'كلمة المرور',
-            'submit-btn'           => 'تسجيل الدخول',
-            'title'                => 'تسجيل الدخول',
+            'email'                  => 'عنوان البريد الإلكتروني',
+            'forget-password-link'   => 'نسيان كلمة المرور؟',
+            'password'               => 'كلمة المرور',
+            'submit-btn'             => 'تسجيل الدخول',
+            'title'                  => 'تسجيل الدخول',
+            'powered-by'             => 'مدعوم من :unopim,',
+            'open-source-project-by' => 'مشروع مفتوح المصدر بواسطة :webkul.',
         ],
 
         'forget-password' => [
-            'create'    => [
-                'email'                => 'بريد الكتروني مسجل',
-                'email-not-exist'      => 'البريد الإلكتروني لا يوجد',
-                'page-title'           => 'ننسى كلمة المرور',
-                'reset-link-sent'      => 'إعادة تعيين ارتباط كلمة المرور المرسلة',
-                'email-settings-error' => 'تعذر إرسال البريد الإلكتروني.يرجى التحقق من تفاصيل تكوين بريدك الإلكتروني',
-                'sign-in-link'         => 'العودة لتسجيل الدخول؟',
-                'submit-btn'           => 'إعادة ضبط',
-                'title'                => 'إستعادة كلمة المرور',
+            'create' => [
+                'email'                  => 'بريد الكتروني مسجل',
+                'email-not-exist'        => 'البريد الإلكتروني لا يوجد',
+                'page-title'             => 'ننسى كلمة المرور',
+                'reset-link-sent'        => 'إعادة تعيين ارتباط كلمة المرور المرسلة',
+                'email-settings-error'   => 'تعذر إرسال البريد الإلكتروني.يرجى التحقق من تفاصيل تكوين بريدك الإلكتروني',
+                'sign-in-link'           => 'العودة لتسجيل الدخول؟',
+                'submit-btn'             => 'إعادة ضبط',
+                'title'                  => 'إستعادة كلمة المرور',
+                'powered-by'             => 'مدعوم من :unopim,',
+                'open-source-project-by' => 'مشروع مفتوح المصدر بواسطة :webkul.',
             ],
         ],
 
         'reset-password' => [
-            'back-link-title'  => 'العودة لتسجيل الدخول؟',
-            'confirm-password' => 'تأكيد كلمة المرور',
-            'email'            => 'بريد الكتروني مسجل',
-            'password'         => 'كلمة المرور',
-            'submit-btn'       => 'إعادة تعيين كلمة المرور',
-            'title'            => 'إعادة تعيين كلمة المرور',
+            'back-link-title'        => 'العودة لتسجيل الدخول؟',
+            'confirm-password'       => 'تأكيد كلمة المرور',
+            'email'                  => 'بريد الكتروني مسجل',
+            'password'               => 'كلمة المرور',
+            'submit-btn'             => 'إعادة تعيين كلمة المرور',
+            'title'                  => 'إعادة تعيين كلمة المرور',
+            'powered-by'             => 'مدعوم من :unopim,',
+            'open-source-project-by' => 'مشروع مفتوح المصدر بواسطة :webkul.',
         ],
     ],
 
     'notifications' => [
-        'description-text'      => 'سرد جميع الإخطارات',
-        'marked-success'        => 'تم وضع علامة على الإخطار بنجاح',
-        'no-record'             => 'لا يوجد سجلات',
-        'read-all'              => 'ضع إشارة مقروء',
-        'title'                 => 'إشعارات',
-        'view-all'              => 'عرض الكل',
-        'status'                => [
+        'description-text' => 'سرد جميع الإخطارات',
+        'marked-success'   => 'تم وضع علامة على الإخطار بنجاح',
+        'no-record'        => 'لا يوجد سجلات',
+        'read-all'         => 'ضع إشارة مقروء',
+        'title'            => 'إشعارات',
+        'view-all'         => 'عرض الكل',
+        'status'           => [
             'all'        => 'الجميع',
             'canceled'   => 'ألغيت',
             'closed'     => 'مغلق',
@@ -73,28 +79,31 @@ return [
 
     'dashboard' => [
         'index' => [
-            'title'                       => 'لوحة القيادة',
-            'user-info'                   => 'الرصد بسرعة ، ما \'s count in your PIM',
-            'user-name'                   => 'مرحبًا! :user_name',
-            'catalog-details'             => 'فهرس',
-            'total-families'              => 'إجمالي العائلات',
-            'total-attributes'            => 'إجمالي السمات',
-            'total-groups'                => 'المجموعات الكلية',
-            'total-categories'            => 'إجمالي الفئات',
-            'total-products'              => 'إجمالي المنتجات',
-            'settings-details'            => 'هيكل الكتالوج',
-            'total-locales'               => 'إجمالي الأماكن',
-            'total-currencies'            => 'إجمالي العملات',
-            'total-channels'              => 'إجمالي القنوات',
+            'title'            => 'لوحة القيادة',
+            'user-info'        => 'الرصد بسرعة ، ما \'s count in your PIM',
+            'user-name'        => 'مرحبًا! :user_name',
+            'catalog-details'  => 'فهرس',
+            'total-families'   => 'إجمالي العائلات',
+            'total-attributes' => 'إجمالي السمات',
+            'total-groups'     => 'المجموعات الكلية',
+            'total-categories' => 'إجمالي الفئات',
+            'total-products'   => 'إجمالي المنتجات',
+            'settings-details' => 'هيكل الكتالوج',
+            'total-locales'    => 'إجمالي الأماكن',
+            'total-currencies' => 'إجمالي العملات',
+            'total-channels'   => 'إجمالي القنوات',
         ],
     ],
 
     'catalog' => [
         'products' => [
             'index' => [
-                'already-taken' => 'تم أخذ :name بالفعل.',
-                'create-btn'    => 'إنشاء المنتج',
-                'title'         => 'منتجات',
+                'already-taken'             => 'تم أخذ :name بالفعل.',
+                'create-btn'                => 'إنشاء المنتج',
+                'title'                     => 'منتجات',
+                'magic-ai-error'            => 'يرجى التحقق من بيانات اعتماد Magic AI والتأكد من اختيار النموذج الصحيح.',
+                'magic-ai-validate-error'   => 'يرجى التحقق من بيانات اعتماد Magic AI.',
+                'magic-ai-validate-success' => 'تم التحقق من بيانات اعتماد Magic AI بنجاح.',
 
                 'create' => [
                     'back-btn'                          => 'خلف',
@@ -111,34 +120,34 @@ return [
                 ],
 
                 'datagrid' => [
-                    'active'                        => 'نشيط',
-                    'attribute-family'              => 'تنسب الأسرة',
-                    'attribute-family-value'        => 'عائلة السمات - :attribute_family',
-                    'category'                      => 'فئة',
-                    'copy-of'                       => 'نسخة :value القيمة',
-                    'copy-of-slug'                  => 'نسخة :value القيمة',
-                    'delete'                        => 'يمسح',
-                    'edit'                          => 'يحرر',
-                    'copy'                          => 'ينسخ',
-                    'disable'                       => 'إبطال',
-                    'id'                            => 'بطاقة تعريف',
-                    'id-value'                      => 'بطاقة تعريف:id',
-                    'image'                         => 'صورة',
-                    'mass-delete-success'           => 'تم حذف المنتجات المختارة بنجاح',
-                    'mass-update-success'           => 'تم تحديث المنتجات المحددة بنجاح',
-                    'name'                          => 'اسم',
-                    'out-of-stock'                  => 'إنتهى من المخزن',
-                    'price'                         => 'سعر',
-                    'product-image'                 => 'صورة المنتج',
-                    'qty'                           => 'كمية',
-                    'qty-value'                     => ':qty الكمية',
-                    'sku'                           => 'SKU',
-                    'sku-value'                     => 'SKU - :sku',
-                    'status'                        => 'حالة',
-                    'type'                          => 'يكتب',
-                    'update-status'                 => 'تحديث الحالة',
-                    'parent'                        => 'الأبوين',
-                    'parent-identifier'             => 'الوالد : :sku',
+                    'active'                 => 'نشيط',
+                    'attribute-family'       => 'تنسب الأسرة',
+                    'attribute-family-value' => 'عائلة السمات - :attribute_family',
+                    'category'               => 'فئة',
+                    'copy-of'                => 'نسخة :value القيمة',
+                    'copy-of-slug'           => 'نسخة :value القيمة',
+                    'delete'                 => 'يمسح',
+                    'edit'                   => 'يحرر',
+                    'copy'                   => 'ينسخ',
+                    'disable'                => 'إبطال',
+                    'id'                     => 'بطاقة تعريف',
+                    'id-value'               => 'بطاقة تعريف:id',
+                    'image'                  => 'صورة',
+                    'mass-delete-success'    => 'تم حذف المنتجات المختارة بنجاح',
+                    'mass-update-success'    => 'تم تحديث المنتجات المحددة بنجاح',
+                    'name'                   => 'اسم',
+                    'out-of-stock'           => 'إنتهى من المخزن',
+                    'price'                  => 'سعر',
+                    'product-image'          => 'صورة المنتج',
+                    'qty'                    => 'كمية',
+                    'qty-value'              => ':qty الكمية',
+                    'sku'                    => 'SKU',
+                    'sku-value'              => 'SKU - :sku',
+                    'status'                 => 'حالة',
+                    'type'                   => 'يكتب',
+                    'update-status'          => 'تحديث الحالة',
+                    'parent'                 => 'الأبوين',
+                    'parent-identifier'      => 'الوالد : :sku',
                 ],
             ],
 
@@ -354,7 +363,7 @@ return [
                 'same-code-error'       => 'يجب أن يكون رمز الخيار فريدًا.',
                 'usable-in-grid'        => 'قابلة للاستخدام في الشبكة',
 
-                'option'                => [
+                'option' => [
                     'color'    => 'تغيير الالوان',
                     'dropdown' => 'اسقاط',
                     'image'    => 'حوامل الصورة',
@@ -479,13 +488,13 @@ return [
                 'label'    => 'ملصق',
             ],
 
-            'create-success'          => 'مجموعة السمات التي تم إنشاؤها بنجاح',
-            'delete-failed'           => 'فشلت مجموعة السمات المحذوفة',
-            'delete-success'          => 'تم حذف مجموعة السمة بنجاح',
-            'update-success'          => 'تم تحديث مجموعة السمات بنجاح',
-            'user-define-error'       => 'لا يمكن حذف مجموعة سمة النظام',
-            'attribute-group-error'   => 'يتم استخدام المجموعة في العائلات.',
-            'not-found'               => 'لم يتم العثور على مجموعة السمات برمز "code"',
+            'create-success'        => 'مجموعة السمات التي تم إنشاؤها بنجاح',
+            'delete-failed'         => 'فشلت مجموعة السمات المحذوفة',
+            'delete-success'        => 'تم حذف مجموعة السمة بنجاح',
+            'update-success'        => 'تم تحديث مجموعة السمات بنجاح',
+            'user-define-error'     => 'لا يمكن حذف مجموعة سمة النظام',
+            'attribute-group-error' => 'يتم استخدام المجموعة في العائلات.',
+            'not-found'             => 'لم يتم العثور على مجموعة السمات برمز "code"',
         ],
 
         'categories' => [
@@ -504,6 +513,7 @@ return [
                     'name'           => 'اسم العرض',
                     'no-of-products' => 'عدد من المنتجات',
                     'position'       => 'موضع',
+                    'category-name'  => 'اسم',
                     'status'         => 'مرئية في القائمة',
                     'update-status'  => 'تحديث الحالة',
                 ],
@@ -595,61 +605,61 @@ return [
             ],
 
             'create' => [
-                'add-field-options'     => 'إضافة خيارات حقل الفئة',
-                'add-option'            => 'أضف الخيار',
-                'add-options-info'      => 'لإنشاء مزيج مختلف من خيار حقل الفئة أثناء التنقل.',
-                'add-row'               => 'اضف سطر',
-                'admin'                 => 'مسؤل',
-                'admin-name'            => 'اسم المسؤول',
-                'back-btn'              => 'خلف',
-                'boolean'               => 'منطقية',
-                'checkbox'              => 'مربع الاختيار',
-                'code'                  => 'شفرة',
-                'color'                 => 'لون',
-                'configuration'         => 'إعدادات',
-                'create-empty-option'   => 'إنشاء خيار فارغ افتراضي',
-                'date'                  => 'تاريخ',
-                'datetime'              => 'DateTime',
-                'decimal'               => 'عدد عشري',
-                'default-value'         => 'القيمة الافتراضية',
-                'email'                 => 'بريد إلكتروني',
-                'enable-wysiwyg'        => 'تمكين محرر wysiwyg',
-                'file'                  => 'ملف',
-                'general'               => 'عام',
-                'image'                 => 'صورة',
-                'input-options'         => 'خيارات الإدخال',
-                'input-validation'      => 'التحقق من صحة المدخلات',
-                'is-required'           => 'مطلوب',
-                'is-unique'             => 'فريد من نوعة',
-                'label'                 => 'ملصق',
-                'multiselect'           => 'تحديد متعدد',
-                'no'                    => 'لا',
-                'number'                => 'رقم',
-                'options'               => 'خيارات',
-                'position'              => 'موضع',
-                'regex'                 => 'Regex',
-                'save-btn'              => 'حفظ حقل الفئة',
-                'select'                => 'يختار',
-                'select-type'           => 'اختر صنف',
-                'swatch'                => 'Swatch',
-                'text'                  => 'نص',
-                'textarea'              => 'Textarea',
-                'title'                 => 'إضافة حقل الفئة',
-                'type'                  => 'يكتب',
-                'url'                   => 'عنوان URL',
-                'use-in-flat'           => 'قم بإنشاء طاولة مسطحة للمنتج',
-                'validations'           => 'تصديق',
-                'value-per-channel'     => 'قيمة لكل قناة',
-                'value-per-locale'      => 'قيمة لكل لغة',
-                'yes'                   => 'نعم',
-                'status'                => 'حالة',
-                'set-section'           => 'قسم العرض',
-                'set-section-left'      => 'القسم العام',
-                'set-section-right'     => 'قسم التكوين',
-                'settings'              => 'إعدادات',
-                'same-code-error'       => 'يجب أن يكون رمز الخيار فريدًا.',
+                'add-field-options'   => 'إضافة خيارات حقل الفئة',
+                'add-option'          => 'أضف الخيار',
+                'add-options-info'    => 'لإنشاء مزيج مختلف من خيار حقل الفئة أثناء التنقل.',
+                'add-row'             => 'اضف سطر',
+                'admin'               => 'مسؤل',
+                'admin-name'          => 'اسم المسؤول',
+                'back-btn'            => 'خلف',
+                'boolean'             => 'منطقية',
+                'checkbox'            => 'مربع الاختيار',
+                'code'                => 'شفرة',
+                'color'               => 'لون',
+                'configuration'       => 'إعدادات',
+                'create-empty-option' => 'إنشاء خيار فارغ افتراضي',
+                'date'                => 'تاريخ',
+                'datetime'            => 'DateTime',
+                'decimal'             => 'عدد عشري',
+                'default-value'       => 'القيمة الافتراضية',
+                'email'               => 'بريد إلكتروني',
+                'enable-wysiwyg'      => 'تمكين محرر wysiwyg',
+                'file'                => 'ملف',
+                'general'             => 'عام',
+                'image'               => 'صورة',
+                'input-options'       => 'خيارات الإدخال',
+                'input-validation'    => 'التحقق من صحة المدخلات',
+                'is-required'         => 'مطلوب',
+                'is-unique'           => 'فريد من نوعة',
+                'label'               => 'ملصق',
+                'multiselect'         => 'تحديد متعدد',
+                'no'                  => 'لا',
+                'number'              => 'رقم',
+                'options'             => 'خيارات',
+                'position'            => 'موضع',
+                'regex'               => 'Regex',
+                'save-btn'            => 'حفظ حقل الفئة',
+                'select'              => 'يختار',
+                'select-type'         => 'اختر صنف',
+                'swatch'              => 'Swatch',
+                'text'                => 'نص',
+                'textarea'            => 'Textarea',
+                'title'               => 'إضافة حقل الفئة',
+                'type'                => 'يكتب',
+                'url'                 => 'عنوان URL',
+                'use-in-flat'         => 'قم بإنشاء طاولة مسطحة للمنتج',
+                'validations'         => 'تصديق',
+                'value-per-channel'   => 'قيمة لكل قناة',
+                'value-per-locale'    => 'قيمة لكل لغة',
+                'yes'                 => 'نعم',
+                'status'              => 'حالة',
+                'set-section'         => 'قسم العرض',
+                'set-section-left'    => 'القسم العام',
+                'set-section-right'   => 'قسم التكوين',
+                'settings'            => 'إعدادات',
+                'same-code-error'     => 'يجب أن يكون رمز الخيار فريدًا.',
 
-                'option'                => [
+                'option' => [
                     'dropdown' => 'اسقاط',
                     'save-btn' => 'حفظ الخيار',
                     'color'    => 'تغيير الالوان',
@@ -659,60 +669,60 @@ return [
             ],
 
             'edit' => [
-                'add-field-options'     => 'إضافة خيارات حقل الفئة',
-                'add-option'            => 'أضف الخيار',
-                'add-options-info'      => 'لإنشاء مزيج مختلف من خيار حقل الفئة أثناء التنقل.',
-                'add-row'               => 'اضف سطر',
-                'admin'                 => 'مسؤل',
-                'admin-name'            => 'اسم المسؤول',
-                'back-btn'              => 'خلف',
-                'boolean'               => 'منطقية',
-                'checkbox'              => 'مربع الاختيار',
-                'code'                  => 'شفرة',
-                'color'                 => 'لون',
-                'configuration'         => 'إعدادات',
-                'create-empty-option'   => 'إنشاء خيار فارغ افتراضي',
-                'date'                  => 'تاريخ',
-                'datetime'              => 'DateTime',
-                'decimal'               => 'عدد عشري',
-                'default-value'         => 'القيمة الافتراضية',
-                'email'                 => 'بريد إلكتروني',
-                'enable-wysiwyg'        => 'تمكين محرر wysiwyg',
-                'file'                  => 'ملف',
-                'general'               => 'عام',
-                'image'                 => 'صورة',
-                'input-options'         => 'خيارات الإدخال',
-                'input-validation'      => 'التحقق من صحة المدخلات',
-                'is-filterable'         => 'استخدم في الملاحة الطبقات',
-                'is-required'           => 'مطلوب',
-                'is-unique'             => 'فريد من نوعة',
-                'label'                 => 'ملصق',
-                'multiselect'           => 'تحديد متعدد',
-                'no'                    => 'لا',
-                'number'                => 'رقم',
-                'options'               => 'خيارات',
-                'position'              => 'موضع',
-                'regex'                 => 'Regex',
-                'save-btn'              => 'حفظ حقل الفئة',
-                'select'                => 'يختار',
-                'select-type'           => 'اختر صنف',
-                'swatch'                => 'Swatch',
-                'text'                  => 'نص',
-                'textarea'              => 'Textarea',
-                'title'                 => 'تحرير حقل فئة',
-                'type'                  => 'يكتب',
-                'url'                   => 'عنوان URL',
-                'use-in-flat'           => 'قم بإنشاء طاولة مسطحة للمنتج',
-                'validations'           => 'تصديق',
-                'value-per-channel'     => 'قيمة لكل قناة',
-                'value-per-locale'      => 'قيمة لكل لغة',
-                'yes'                   => 'نعم',
-                'status'                => 'حالة',
-                'set-section'           => 'قسم العرض',
-                'set-section-left'      => 'القسم العام',
-                'set-section-right'     => 'قسم التكوين',
-                'settings'              => 'إعدادات',
-                'same-code-error'       => 'يجب أن يكون رمز الخيار فريدًا.',
+                'add-field-options'   => 'إضافة خيارات حقل الفئة',
+                'add-option'          => 'أضف الخيار',
+                'add-options-info'    => 'لإنشاء مزيج مختلف من خيار حقل الفئة أثناء التنقل.',
+                'add-row'             => 'اضف سطر',
+                'admin'               => 'مسؤل',
+                'admin-name'          => 'اسم المسؤول',
+                'back-btn'            => 'خلف',
+                'boolean'             => 'منطقية',
+                'checkbox'            => 'مربع الاختيار',
+                'code'                => 'شفرة',
+                'color'               => 'لون',
+                'configuration'       => 'إعدادات',
+                'create-empty-option' => 'إنشاء خيار فارغ افتراضي',
+                'date'                => 'تاريخ',
+                'datetime'            => 'DateTime',
+                'decimal'             => 'عدد عشري',
+                'default-value'       => 'القيمة الافتراضية',
+                'email'               => 'بريد إلكتروني',
+                'enable-wysiwyg'      => 'تمكين محرر wysiwyg',
+                'file'                => 'ملف',
+                'general'             => 'عام',
+                'image'               => 'صورة',
+                'input-options'       => 'خيارات الإدخال',
+                'input-validation'    => 'التحقق من صحة المدخلات',
+                'is-filterable'       => 'استخدم في الملاحة الطبقات',
+                'is-required'         => 'مطلوب',
+                'is-unique'           => 'فريد من نوعة',
+                'label'               => 'ملصق',
+                'multiselect'         => 'تحديد متعدد',
+                'no'                  => 'لا',
+                'number'              => 'رقم',
+                'options'             => 'خيارات',
+                'position'            => 'موضع',
+                'regex'               => 'Regex',
+                'save-btn'            => 'حفظ حقل الفئة',
+                'select'              => 'يختار',
+                'select-type'         => 'اختر صنف',
+                'swatch'              => 'Swatch',
+                'text'                => 'نص',
+                'textarea'            => 'Textarea',
+                'title'               => 'تحرير حقل فئة',
+                'type'                => 'يكتب',
+                'url'                 => 'عنوان URL',
+                'use-in-flat'         => 'قم بإنشاء طاولة مسطحة للمنتج',
+                'validations'         => 'تصديق',
+                'value-per-channel'   => 'قيمة لكل قناة',
+                'value-per-locale'    => 'قيمة لكل لغة',
+                'yes'                 => 'نعم',
+                'status'              => 'حالة',
+                'set-section'         => 'قسم العرض',
+                'set-section-left'    => 'القسم العام',
+                'set-section-right'   => 'قسم التكوين',
+                'settings'            => 'إعدادات',
+                'same-code-error'     => 'يجب أن يكون رمز الخيار فريدًا.',
 
                 'option' => [
                     'dropdown' => 'اسقاط',
@@ -732,11 +742,11 @@ return [
         ],
 
         'category-fields-options' => [
-            'create-success'    => 'خيار حقل الفئة تم إنشاؤه بنجاح',
-            'update-success'    => 'تم تحديث خيار حقل الفئة بنجاح',
+            'create-success' => 'خيار حقل الفئة تم إنشاؤه بنجاح',
+            'update-success' => 'تم تحديث خيار حقل الفئة بنجاح',
         ],
 
-        'families'   => [
+        'families' => [
             'index' => [
                 'add'   => 'إنشاء عائلة السمة',
                 'title' => 'العائلات',
@@ -836,7 +846,7 @@ return [
             'can-not-update-variant-options' => 'لا يمكن تحديث الخيارات القابلة للتكوين لأن هذه العائلة لديها بالفعل منتجات متغيرة.',
         ],
 
-        'history'   => [
+        'history' => [
             'index' => [
                 'datagrid' => [
                     'version'   => 'إصدار',
@@ -848,7 +858,7 @@ return [
     ],
 
     'settings' => [
-        'locales'           => [
+        'locales' => [
             'index' => [
                 'create-btn'            => 'إنشاء لغة',
                 'locale'                => 'لغة',
@@ -899,7 +909,7 @@ return [
             ],
         ],
 
-        'currencies'        => [
+        'currencies' => [
             'index' => [
                 'create-btn'            => 'إنشاء العملة',
                 'currency'              => 'عملة',
@@ -953,11 +963,11 @@ return [
             ],
         ],
 
-        'data-transfer'     => [
+        'data-transfer' => [
             'tracker' => [
-                'index'             => [
-                    'title'        => 'تعقب الوظائف',
-                    'datagrid'     => [
+                'index' => [
+                    'title'    => 'تعقب الوظائف',
+                    'datagrid' => [
                         'id'                   => 'بطاقة تعريف',
                         'job_code'             => 'وظيفة',
                         'type'                 => 'يكتب',
@@ -985,7 +995,7 @@ return [
                     ],
                 ],
 
-                'import'            => [
+                'import' => [
                     'back-btn'                => 'خلف',
                     'completed-batches'       => 'إجمالي الدُفعات المكتملة:',
                     'download-error-report'   => 'قم بتنزيل التقرير الكامل',
@@ -1022,7 +1032,7 @@ return [
             ],
 
             'imports' => [
-                'create'            => [
+                'create' => [
                     'code'                => 'شفرة',
                     'action'              => 'فعل',
                     'allowed-errors'      => 'الأخطاء المسموح بها',
@@ -1051,7 +1061,7 @@ return [
                     'validation-strategy' => 'استراتيجية التحقق من الصحة',
                 ],
 
-                'edit'              => [
+                'edit' => [
                     'images'              => 'الصور',
                     'action'              => 'فعل',
                     'allowed-errors'      => 'الأخطاء المسموح بها',
@@ -1076,11 +1086,11 @@ return [
                     'validation-strategy' => 'استراتيجية التحقق من الصحة',
                 ],
 
-                'batch'             => [
-                    'title'    => 'تمت إضافة الاستيراد في قائمة الانتظار',
+                'batch' => [
+                    'title' => 'تمت إضافة الاستيراد في قائمة الانتظار',
                 ],
 
-                'index'             => [
+                'index' => [
                     'button-title' => 'إنشاء الاستيراد',
                     'title'        => 'الواردات',
 
@@ -1105,7 +1115,7 @@ return [
                     ],
                 ],
 
-                'import'            => [
+                'import' => [
                     'back-btn'                => 'خلف',
                     'completed-batches'       => 'إجمالي الدُفعات المكتملة:',
                     'download-error-report'   => 'قم بتنزيل التقرير الكامل',
@@ -1144,7 +1154,7 @@ return [
             ],
 
             'exports' => [
-                'create'            => [
+                'create' => [
                     'code'                => 'شفرة',
                     'action'              => 'فعل',
                     'allowed-errors'      => 'الأخطاء المسموح بها',
@@ -1173,7 +1183,7 @@ return [
                     'validation-strategy' => 'استراتيجية التحقق من الصحة',
                 ],
 
-                'edit'              => [
+                'edit' => [
                     'action'              => 'فعل',
                     'allowed-errors'      => 'الأخطاء المسموح بها',
                     'back-btn'            => 'خلف',
@@ -1197,11 +1207,11 @@ return [
                     'validation-strategy' => 'استراتيجية التحقق من الصحة',
                 ],
 
-                'batch'             => [
-                    'title'    => 'تمت إضافة التصدير في قائمة الانتظار',
+                'batch' => [
+                    'title' => 'تمت إضافة التصدير في قائمة الانتظار',
                 ],
 
-                'index'             => [
+                'index' => [
                     'button-title' => 'إنشاء التصدير',
                     'title'        => 'صادرات',
 
@@ -1226,7 +1236,7 @@ return [
                     ],
                 ],
 
-                'export'            => [
+                'export' => [
                     'back-btn'                => 'خلف',
                     'completed-batches'       => 'إجمالي الدُفعات المكتملة:',
                     'download-error-report'   => 'قم بتنزيل التقرير الكامل',
@@ -1265,13 +1275,13 @@ return [
 
         'channels' => [
             'index' => [
-                'create-btn'            => 'إنشاء قناة',
-                'delete-failed'         => 'فشل حذف القناة',
-                'delete-success'        => 'تم حذف القناة بنجاح.',
-                'last-delete-error'     => 'لا يمكن حذف القناة الافتراضية.',
-                'can-not-delete-error'  => 'أنت تستطيع\'t delete the channel ":channel" because your PIM needs to have at least one channel.',
-                'title'                 => 'القنوات',
-                'datagrid'              => [
+                'create-btn'           => 'إنشاء قناة',
+                'delete-failed'        => 'فشل حذف القناة',
+                'delete-success'       => 'تم حذف القناة بنجاح.',
+                'last-delete-error'    => 'لا يمكن حذف القناة الافتراضية.',
+                'can-not-delete-error' => 'أنت تستطيع\'t delete the channel ":channel" because your PIM needs to have at least one channel.',
+                'title'                => 'القنوات',
+                'datagrid'             => [
                     'code'          => 'شفرة',
                     'delete'        => 'يمسح',
                     'edit'          => 'يحرر',
@@ -1283,75 +1293,75 @@ return [
             ],
 
             'create' => [
-                'allowed-ips'             => 'سماح IPS',
-                'cancel'                  => 'خلف',
-                'code'                    => 'شفرة',
-                'create-success'          => 'تم إنشاؤها بنجاح.',
-                'currencies'              => 'العملات',
-                'currencies-and-locales'  => 'العملات واللغات',
-                'description'             => 'وصف',
-                'design'                  => 'تصميم',
-                'ui-locale'               => 'واجهة المستخدم المحلية',
-                'favicon'                 => 'فافيكون',
-                'favicon-size'            => 'يجب أن يكون دقة الصورة مثل 16px x 16px',
-                'general'                 => 'عام',
-                'hostname'                => 'اسم المضيف',
-                'hostname-placeholder'    => 'https://www.example.com (Don\'t add slash in the end.)',
-                'last-delete-error'       => 'مطلوب قناة واحدة على الأقل.',
-                'locales'                 => 'أماكن',
-                'logo'                    => 'شعار',
-                'logo-size'               => 'يجب أن يكون دقة الصورة مثل 192 بكسل × 50 بكسل',
-                'maintenance-mode-text'   => 'رسالة',
-                'name'                    => 'اسم',
-                'root-category'           => 'فئة الجذر',
-                'save-btn'                => 'حفظ القناة',
-                'select-root-category'    => 'حدد فئة الجذر',
-                'select-theme'            => 'اختر نمطا',
-                'seo'                     => 'الصفحة الرئيسية SEO',
-                'seo-description'         => 'ميتا الوصف',
-                'seo-keywords'            => 'كلمات دلالية',
-                'seo-title'               => 'عنوان الفوقية',
-                'settings'                => 'إعدادات',
-                'status'                  => 'حالة',
-                'theme'                   => 'سمة',
-                'title'                   => 'إنشاء قناة',
+                'allowed-ips'            => 'سماح IPS',
+                'cancel'                 => 'خلف',
+                'code'                   => 'شفرة',
+                'create-success'         => 'تم إنشاؤها بنجاح.',
+                'currencies'             => 'العملات',
+                'currencies-and-locales' => 'العملات واللغات',
+                'description'            => 'وصف',
+                'design'                 => 'تصميم',
+                'ui-locale'              => 'واجهة المستخدم المحلية',
+                'favicon'                => 'فافيكون',
+                'favicon-size'           => 'يجب أن يكون دقة الصورة مثل 16px x 16px',
+                'general'                => 'عام',
+                'hostname'               => 'اسم المضيف',
+                'hostname-placeholder'   => 'https://www.example.com (Don\'t add slash in the end.)',
+                'last-delete-error'      => 'مطلوب قناة واحدة على الأقل.',
+                'locales'                => 'أماكن',
+                'logo'                   => 'شعار',
+                'logo-size'              => 'يجب أن يكون دقة الصورة مثل 192 بكسل × 50 بكسل',
+                'maintenance-mode-text'  => 'رسالة',
+                'name'                   => 'اسم',
+                'root-category'          => 'فئة الجذر',
+                'save-btn'               => 'حفظ القناة',
+                'select-root-category'   => 'حدد فئة الجذر',
+                'select-theme'           => 'اختر نمطا',
+                'seo'                    => 'الصفحة الرئيسية SEO',
+                'seo-description'        => 'ميتا الوصف',
+                'seo-keywords'           => 'كلمات دلالية',
+                'seo-title'              => 'عنوان الفوقية',
+                'settings'               => 'إعدادات',
+                'status'                 => 'حالة',
+                'theme'                  => 'سمة',
+                'title'                  => 'إنشاء قناة',
             ],
 
             'edit' => [
-                'allowed-ips'                 => 'سماح IPS',
-                'back-btn'                    => 'خلف',
-                'code'                        => 'شفرة',
-                'currencies'                  => 'العملات',
-                'currencies-and-locales'      => 'العملات واللغات',
-                'default-currency'            => 'العملة الافتراضية',
-                'description'                 => 'وصف',
-                'ui-locale'                   => 'واجهة المستخدم المحلية',
-                'design'                      => 'تصميم',
-                'favicon'                     => 'فافيكون',
-                'favicon-size'                => 'يجب أن يكون دقة الصورة مثل 16px x 16px',
-                'general'                     => 'عام',
-                'hostname'                    => 'اسم المضيف',
-                'hostname-placeholder'        => 'https://www.example.com (Don\'t add slash in the end.)',
-                'last-delete-error'           => 'مطلوب قناة واحدة على الأقل.',
-                'locales'                     => 'أماكن',
-                'select-locales'              => 'حدد الأماكن',
-                'select-currencies'           => 'حدد العملات',
-                'logo'                        => 'شعار',
-                'logo-size'                   => 'يجب أن يكون دقة الصورة مثل 192 بكسل × 50 بكسل',
-                'maintenance-mode'            => 'نمط الصيانة',
-                'maintenance-mode-text'       => 'رسالة',
-                'name'                        => 'اسم',
-                'root-category'               => 'فئة الجذر',
-                'save-btn'                    => 'حفظ القناة',
-                'seo'                         => 'الصفحة الرئيسية SEO',
-                'seo-description'             => 'ميتا الوصف',
-                'seo-keywords'                => 'كلمات دلالية',
-                'seo-title'                   => 'عنوان الفوقية',
-                'status'                      => 'حالة',
-                'name-translations'           => 'ترجمات الاسم',
-                'theme'                       => 'سمة',
-                'title'                       => 'تحرير قناة',
-                'update-success'              => 'تحديث القناة بنجاح',
+                'allowed-ips'            => 'سماح IPS',
+                'back-btn'               => 'خلف',
+                'code'                   => 'شفرة',
+                'currencies'             => 'العملات',
+                'currencies-and-locales' => 'العملات واللغات',
+                'default-currency'       => 'العملة الافتراضية',
+                'description'            => 'وصف',
+                'ui-locale'              => 'واجهة المستخدم المحلية',
+                'design'                 => 'تصميم',
+                'favicon'                => 'فافيكون',
+                'favicon-size'           => 'يجب أن يكون دقة الصورة مثل 16px x 16px',
+                'general'                => 'عام',
+                'hostname'               => 'اسم المضيف',
+                'hostname-placeholder'   => 'https://www.example.com (Don\'t add slash in the end.)',
+                'last-delete-error'      => 'مطلوب قناة واحدة على الأقل.',
+                'locales'                => 'أماكن',
+                'select-locales'         => 'حدد الأماكن',
+                'select-currencies'      => 'حدد العملات',
+                'logo'                   => 'شعار',
+                'logo-size'              => 'يجب أن يكون دقة الصورة مثل 192 بكسل × 50 بكسل',
+                'maintenance-mode'       => 'نمط الصيانة',
+                'maintenance-mode-text'  => 'رسالة',
+                'name'                   => 'اسم',
+                'root-category'          => 'فئة الجذر',
+                'save-btn'               => 'حفظ القناة',
+                'seo'                    => 'الصفحة الرئيسية SEO',
+                'seo-description'        => 'ميتا الوصف',
+                'seo-keywords'           => 'كلمات دلالية',
+                'seo-title'              => 'عنوان الفوقية',
+                'status'                 => 'حالة',
+                'name-translations'      => 'ترجمات الاسم',
+                'theme'                  => 'سمة',
+                'title'                  => 'تحرير قناة',
+                'update-success'         => 'تحديث القناة بنجاح',
             ],
         ],
 
@@ -1390,7 +1400,7 @@ return [
                 ],
 
                 'edit' => [
-                    'title'    => 'تحرير العضو',
+                    'title' => 'تحرير العضو',
                 ],
             ],
 
@@ -1534,10 +1544,10 @@ return [
                     'title' => 'تصميم',
 
                     'admin-logo' => [
-                        'favicon'         => 'فافيكون',
-                        'logo-image'      => 'صورة الشعار',
-                        'title'           => 'شعار المسؤول',
-                        'title-info'      => 'شعار المسؤول هو الصورة المميزة أو شعار تمثل واجهة الإدارة لنظام أو موقع ويب ، وغالبًا ما يكون قابلاً للتخصيص.',
+                        'favicon'    => 'فافيكون',
+                        'logo-image' => 'صورة الشعار',
+                        'title'      => 'شعار المسؤول',
+                        'title-info' => 'شعار المسؤول هو الصورة المميزة أو شعار تمثل واجهة الإدارة لنظام أو موقع ويب ، وغالبًا ما يكون قابلاً للتخصيص.',
                     ],
                 ],
 
@@ -1546,12 +1556,12 @@ return [
                     'title' => 'السحر لديك',
 
                     'settings' => [
-                        'api-key'           => 'مفتاح API',
-                        'enabled'           => 'تمكين',
-                        'llm-api-domain'    => 'LLM API المجال',
-                        'organization'      => 'معرف المنظمة',
-                        'title'             => 'الاعدادات العامة',
-                        'title-info'        => 'عزز تجربتك مع ميزة Magic AI من خلال إدخال مفتاح API الحصري والإشارة إلى المنظمة ذات الصلة للتكامل دون عناء.اغتنم الأمر عبر بيانات اعتماد Openai وتخصيص الإعدادات وفقًا لاحتياجاتك المحددة.',
+                        'api-key'        => 'مفتاح API',
+                        'enabled'        => 'تمكين',
+                        'llm-api-domain' => 'LLM API المجال',
+                        'organization'   => 'معرف المنظمة',
+                        'title'          => 'الاعدادات العامة',
+                        'title-info'     => 'عزز تجربتك مع ميزة Magic AI من خلال إدخال مفتاح API الحصري والإشارة إلى المنظمة ذات الصلة للتكامل دون عناء.اغتنم الأمر عبر بيانات اعتماد Openai وتخصيص الإعدادات وفقًا لاحتياجاتك المحددة.',
                     ],
 
                     'content-generation' => [
@@ -1823,9 +1833,9 @@ return [
                 ],
 
                 'notifications' => [
-                    'info'                                             => '"الإخطار" هي رسالة أو تنبيه تقوم بإبلاغ المستخدمين بالأحداث أو التحديثات أو الإجراءات ، مما يعزز مشاركة المستخدم ووعيه.',
-                    'new-admin'                                        => 'إرسال بريد إلكتروني للتأكيد إلى المسؤول',
-                    'title'                                            => 'إشعارات',
+                    'info'      => '"الإخطار" هي رسالة أو تنبيه تقوم بإبلاغ المستخدمين بالأحداث أو التحديثات أو الإجراءات ، مما يعزز مشاركة المستخدم ووعيه.',
+                    'new-admin' => 'إرسال بريد إلكتروني للتأكيد إلى المسؤول',
+                    'title'     => 'إشعارات',
                 ],
             ],
 
@@ -2170,16 +2180,16 @@ return [
             ],
 
             'history' => [
-                'title'             => 'معاينة التاريخ',
-                'subtitle'          => 'مراجعة التحديثات والتغييرات الخاصة بك بسرعة.',
-                'close-btn'         => 'يغلق',
-                'version-label'     => 'إصدار',
-                'date-time-label'   => 'التاريخ/الوقت',
-                'user-label'        => 'مستخدم',
-                'name-label'        => 'مفتاح',
-                'old-value-label'   => 'القيمة القديمة',
-                'new-value-label'   => 'قيمة جديدة',
-                'no-history'        => 'لم يتم العثور على تاريخ',
+                'title'           => 'معاينة التاريخ',
+                'subtitle'        => 'مراجعة التحديثات والتغييرات الخاصة بك بسرعة.',
+                'close-btn'       => 'يغلق',
+                'version-label'   => 'إصدار',
+                'date-time-label' => 'التاريخ/الوقت',
+                'user-label'      => 'مستخدم',
+                'name-label'      => 'مفتاح',
+                'old-value-label' => 'القيمة القديمة',
+                'new-value-label' => 'قيمة جديدة',
+                'no-history'      => 'لم يتم العثور على تاريخ',
             ],
         ],
 
@@ -2197,11 +2207,14 @@ return [
 
         'media' => [
             'images' => [
-                'add-image-btn'     => 'إضافة صورة',
-                'ai-add-image-btn'  => 'الذكاء الاصطناعي السحري',
-                'ai-btn-info'       => 'توليد الصورة',
-                'allowed-types'     => 'بابوا نيو غينيا، الحياة السياسية في فرنسا، JPG',
-                'not-allowed-error' => 'يُسمح فقط بملفات الصور (.jpeg، .jpg، .png، ..).',
+                'add-image-btn'      => 'إضافة صورة',
+                'generate-with-ai'   => 'إنشاء باستخدام الذكاء الاصطناعي',
+                'upload-from-device' => 'تحميل من الجهاز',
+                'cancel'             => 'إلغاء',
+                'ai-add-image-btn'   => 'الذكاء الاصطناعي السحري',
+                'ai-btn-info'        => 'توليد الصورة',
+                'allowed-types'      => 'بابوا نيو غينيا، الحياة السياسية في فرنسا، JPG',
+                'not-allowed-error'  => 'يُسمح فقط بملفات الصور (.jpeg، .jpg، .png، ..).',
 
                 'ai-generation' => [
                     '1024x1024'        => '1024x1024',
@@ -2270,6 +2283,7 @@ return [
                 'orca-mini'              => 'أوركا ميني',
                 'vicuna'                 => 'فيكونا',
                 'llava'                  => 'لافا',
+                'default-prompt'         => 'الطلب الافتراضي',
             ],
         ],
     ],
@@ -2415,11 +2429,63 @@ return [
     ],
 
     'common' => [
-        'yes'      => 'نعم',
-        'no'       => 'لا',
-        'true'     => 'حقيقي',
-        'false'    => 'خطأ شنيع',
-        'enable'   => 'ممكّن',
-        'disable'  => 'عاجز',
+        'yes'     => 'نعم',
+        'no'      => 'لا',
+        'true'    => 'حقيقي',
+        'false'   => 'خطأ شنيع',
+        'enable'  => 'ممكّن',
+        'disable' => 'عاجز',
+    ],
+
+    'default-prompt' => [
+        'detailed' => [
+            'title'  => 'وصف المنتج التفصيلي',
+            'prompt' => 'اكتب وصفًا شاملاً لـ @name، يشمل ميزاته وفوائده والمواصفات الفنية وتعليمات الاستخدام.',
+        ],
+
+        'overview' => [
+            'title'  => 'نظرة عامة على المنتج',
+            'prompt' => 'قم بإنشاء نظرة عامة عن @name مع تسليط الضوء على ميزاته الرئيسية ومزاياه وجمهوره المستهدف مثل @brand و@color.',
+        ],
+
+        'features' => [
+            'title'  => 'ميزات المنتج وفوائده',
+            'prompt' => 'قائمة بالميزات الرئيسية لـ @name، موضحًا كيف تضيف قيمة لحياة العميل.',
+        ],
+
+        'technical' => [
+            'title'  => 'المواصفات الفنية للمنتج',
+            'prompt' => 'قم بإعداد قائمة شاملة بالمواصفات الفنية لـ @name، بما في ذلك الأبعاد والمواد والتوافق.',
+        ],
+
+        'care' => [
+            'title'  => 'العناية بالمنتج وصيانته',
+            'prompt' => 'اكتب دليلًا حول كيفية العناية بـ @name، بما في ذلك نصائح التنظيف والتخزين واستكشاف الأخطاء.',
+        ],
+
+        'tagline' => [
+            'title'  => 'شعار المنتج',
+            'prompt' => 'اكتب شعارًا جذابًا ومختصرًا لـ @name يعبر عن جوهره وفوائده.',
+        ],
+
+        'summary' => [
+            'title'  => 'ملخص المنتج',
+            'prompt' => 'قم بتلخيص الميزات الرئيسية لـ @name في 50-60 كلمة.',
+        ],
+
+        'headline' => [
+            'title'  => 'عنوان المنتج',
+            'prompt' => 'اكتب عنوانًا ملفتًا لـ @name يبرز نقطة البيع الفريدة.',
+        ],
+
+        'brief' => [
+            'title'  => 'وصف موجز للمنتج',
+            'prompt' => 'اكتب وصفًا موجزًا لـ @name مع التركيز على مزاياه وجمهوره المستهدف.',
+        ],
+
+        'elevator' => [
+            'title'  => 'عرض المنتج السريع',
+            'prompt' => 'قم بإنشاء عرض سريع لـ @name يلخص الغرض والفوائد في 30-40 كلمة.',
+        ],
     ],
 ];

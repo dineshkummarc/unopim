@@ -106,7 +106,7 @@
                                 v-for='(attribute, index) in superAttributes'
                             >
                                 <x-admin::form.control-group.label class="required">
-                                    @{{ attribute.name }}
+                                    @{{ attribute.name || '[' + attribute.code + ']' }}
                                 </x-admin::form.control-group.label>
 
                                 <x-admin::form.control-group.control
@@ -917,9 +917,11 @@
 
             methods: {
                 optionName(attribute, optionCode) {
-                    return attribute.options.find((option) => {
+                    let attributeOption = attribute.options.find((option) => {
                         return option.code == optionCode;
-                    })?.label;
+                    })
+
+                    return attributeOption.label ? attributeOption.label : '[' + optionCode + ']';
                 },
 
                 async update(params) {
